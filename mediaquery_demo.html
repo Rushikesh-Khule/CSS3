@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rushikesh">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>CSS Media Query Demo</title>
+        <style>
+            body{
+                background-color: cyan;
+            }
+            @media screen and (max-width:600px) {
+                body{
+                    background-color: pink;
+                }
+                .header1{
+                    color: brown;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
+            @media screen and (min-width:800px) {
+                body{
+                    background-color: olive;
+                    color: #fff;
+                }
+                .header1{
+                    font-family: cursive;
+                }
+            }
+            @media  screen and (min-width:1000px) {
+                body{
+                    background-color: blueviolet;
+
+                }
+                .header1{
+                    font-family: italic;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="header1">Welcome To Media Query</h1>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rushikesh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table Style Demo</title>
+    <style>
+        /*table,th,td{
+            border: 5px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 70%;
+        }
+        th{
+            height: 70px;
+            text-align: center;
+            vertical-align: top;
+        }
+        td{
+            height: 50px;
+            text-align: center;
+            vertical-align: bottom;
+        }
+        th,td{
+            padding: 20px;
+        }
+        /*table{
+            border-width: 5px;
+            border-style: solid;
+            border-color: brown;
+        }
+        th{
+            border: 3px dashed green;
+        }
+        td{
+            border-width: 2px;
+            border-style: dotted;
+            border-color: darkorchid;
+        }*/
+        
+    
+        table{
+            width: 800px;
+            background-color: cadetblue;
+        }
+        table,th,td{
+            border-collapse: collapse;
+            width: 50%;
+            background-color: pink;
+        }
+        th,td{
+            text-align: center;
+            padding: 10px;
+            border-bottom: 2px solid gray;
+        }
+        tr:nth-child(odd){
+            background-color: rgb(212, 130, 22);
+        }
+        tr:nth-child(even){
+            background-color: darkgreen;
+        }
+        tr:hover{
+            background-color: rgb(128, 36, 0);
+            color: white;
+            cursor: pointer;
+        }
+        th{
+            background-color: rgb(0, 255, 106);
+            color: rgb(220, 17, 17);
+            cursor:auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <div style="width: 500px;overflow-x: auto;" >
+    <table>
+        <thead>
+            <tr>
+                <th>Product ID</th>
+                <th>Name</th>
+                <th>Brand</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+             </tr>
+                <td>1003</td>
+                <td>Music System</td>
+                <td>Whirlpool</td>
+                <td>28500.00</td>
+         </tr>
+            </tr>
+                <td>1006</td>
+                <td>Music System</td>
+                <td>Whirlpool</td>
+                <td>28500.00</td>
+            </tr>
+            <tr>
+                <td>1008</td>
+                <td>Smart Watch</td>
+                <td>Boat</td>
+                <td>5000.00</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>
