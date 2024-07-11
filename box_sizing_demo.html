@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rushikesh">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>CSS Box Sizing Demo</title>
+        <style>
+            .box1{
+                width: 100px;
+                height: 100px;
+                padding: 20px;
+                background-color: darkcyan;
+                border: 10px solid green;
+                box-sizing: content-box; /* default value*/
+            }
+
+            .box2{
+                width: 100px;
+                height: 100px;
+                background-color: chocolate;
+                color: white;
+                box-sizing: border-box;
+                padding: 20px;
+                border: 10px solid gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1">This is div</div><br>
+        <div class="box2">This is div</div>
+    </body>
+</html>

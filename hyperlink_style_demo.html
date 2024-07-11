@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rushikesh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Link Style Demo</title>
+    <style>
+        a{
+            background-color: magenta;
+            color: blue;
+            text-decoration: none;
+            font-size: 30px;
+        }
+        a:hover{
+            font-size: 30px;
+            background-color: aquamarine;
+            color:brown;
+            text-decoration: underline;
+            border-radius: 20px;
+        }
+        a:active{
+            background-color: chartreuse;
+            color: chocolate;
+            border-radius: 20px;
+        }
+        /*a:visited{
+            background-color: darkseagreen;
+            color: darkslategrey;
+        }*/
+        .btn:link,.btn:visited{
+            background-color: blue;
+            color: white;
+            padding: 14px 10px;
+            text-align: center;
+            display: inline-block;
+           
+        }
+        .btn:active,.btn:hover{
+            background-color: white;
+            color: blue;
+            border: 2px solid blue;
+            text-decoration: none;
+            font-size: 30px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="color_demo.html">Clik Me</a>
+    <br>
+    <a class="btn" href="css_class_demo.html">show Flight Details</a>
+</body>
+</html>

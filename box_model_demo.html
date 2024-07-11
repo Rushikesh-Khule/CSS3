@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rushikesh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Demo</title>
+    <style>
+        .head1{
+            border-width: 2px;
+            border-style: solid;
+            border-color: rgb(242, 33, 6);
+        }
+        .b1{
+             border: 5px solid blue;
+        }
+        .b2{
+            border-width: 10px;
+            border-style: dashed;
+            border-color: crimson;
+        }
+        .b3{
+            border: 7px dotted darkcyan;
+        }
+        .b4{
+            border-width: 12px;
+            border-style: double;
+            border-color: green;
+        }
+        .b5{
+            border-width: 20px;
+            border-style: groove;
+            border-color: chocolate;
+        }
+        .b6{
+            border-width: 20px;
+            border-style: ridge;
+            border-color: chocolate;
+        }
+        .b7{
+            border: 20px inset lawngreen;
+        }
+        .b8{
+            border: 20px outset lawngreen;
+        }
+        .br9{
+            border: 20px solid darksalmon;
+            border-radius: 15px;
+        }
+        .wh1{
+            border: 5px solid mediumvioletred;
+            width: 700px;
+            height: 400px;
+            margin: auto;
+        }
+        .wh2{
+            border: 5px solid mediumvioletred;
+            width: 70%;
+            height: 400px;
+        }
+        .parent{
+            border: 5px solid darkorchid;
+            width: 50%;
+            height: 300px;
+            margin: auto;
+        }
+        .child{
+            border: 3px solid blue;
+            width: 80%;
+            height: 70%;
+            margin: auto;
+            margin-top: 20px;
+        }
+        .div-margin{
+            /*margin-top: 20px;
+            margin-right: 30px;
+            margin-bottom: 10px;
+            margin-left: 10px;*/
+            margin: 20px 30px 10px 10px;
+        }
+        .div-margin3{
+            margin: 5px 50px 8px;
+        }
+        .div-margin2{
+            margin: 60px 45px;
+        }
+        .div-margin1{
+            margin: 35px;
+        }
+        .parent1{
+            border: 5px solid darkorchid;
+            width: 50%;
+            height: 300px;
+            margin: auto;
+        }
+        .child1{
+            border: 3px solid blue;
+            width: inherit;
+            height: 70%;
+            margin: auto;
+            margin-top: 40px;
+        }
+        .info{
+            border: 10px solid green;
+            text-align: justify;
+            /*padding-top: 20px;
+            padding-right: 34px;
+            padding-bottom: 20px;
+            padding-left: 15px;*/
+            /*padding: 20px 34px 20px 15px;*/
+            /*padding: 30px 25px 10px;*/
+            /*padding: 40px 20px;*/
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="head1">This is heading 1</h1>
+    <p class="head1">This is paragraph</p>
+    <div class="b1">This is Div</div><br>
+    <div class="b2">This is div</div><br>
+    <div class="b3">This is Div</div>
+    <h3 class="b4">This is heading 3</h3>
+    <h2 class="b5">This is Heading 2</h2>
+    <h4 class="b6">This is Heading 4</h4>
+    <h2 class="b6">This is Heading 2</h2>
+    <h2 class="b7">This is Heading 2</h2>
+    <h2 class="b8">This is Heading 2</h2>
+    <h3 class="br9">This is heading 3</h3>
+    <h3 class="wh1">This is heading 3</h3>
+    <h3 class="wh2">This is heading 3</h3>
+    <div class="parent">
+        <div class="child">
+
+        </div>
+    </div>
+    <h2>Margin Demo</h2>
+    <div class="div-margin3" style="border: 5px solid blue;">
+        These are contents of div1
+    </div>
+    <div class="div-margin" style=" border: 5px solid red">
+        These are contents of div2
+    </div>
+    <div class="div-margin2" style="border: 5px solid green;">
+        These are contents of div 3
+    </div>
+    <div class="div-margin1" style="border: 5px solid yellow;">
+        These are contents of div 4
+    
+    </div>
+    <div class="parent1">
+        <div class="child1">
+
+        </div>
+
+    </div> 
+    <p class="info">These 34 monasteries and temples, extending over more than 2 km, were dug side by side in the wall of a high basalt cliff, not far from Aurangabad, in Maharashtra. Ellora, with its uninterrupted sequence of monuments dating from A.D. 600 to 1000, brings the civilization of ancient India to life. Not only is the Ellora complex a unique artistic creation and a technological exploit but, with its sanctuaries devoted to Buddhism, Hinduism and Jainism, it illustrates the spirit of tolerance that was characteristic of ancient India.</p>
+
+</body>
+</html>
